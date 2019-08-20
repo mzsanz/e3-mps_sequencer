@@ -1,0 +1,12 @@
+record(longin,"REC:Heaterstatus"){
+	field(SCAN,"1 second")
+	field(DTYP,"OPCUA")
+	field(INP,"@4:Demo.BoilerDemo.Boiler1.HeaterStatus")
+}
+
+record(longin,"REC:Temperature"){
+	field(SCAN,"I/O Intr")
+	field(DTYP,"OPCUA")
+	field(INP,"@4:Demo.BolierDemo.Boiler1.Temperaturesensor.Temperature")
+}
+
